@@ -1,0 +1,18 @@
+/* bugSolution.css */
+
+/* Correct usage of calc() */
+#element {
+  width: calc(100% - 10px);
+}
+
+/* Correct usage with different units (requires careful calculation) */
+#anotherElement {
+  width: calc(50vw - 2em);
+}
+
+/* Avoid errors like this: */
+/* Incorrect: Missing space */
+/* #wrongElement { width: calc(100%-10px); } */
+
+/* Incorrect: Unit mismatch */
+/* #wrongElement2 { width: calc(100% - 10em); } */
